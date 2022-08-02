@@ -15,6 +15,10 @@
 
 - It is a Sequential Search
 - Time complexity - O(n)
+    - The time complexity of the linear search is O(n) because each element in an array is compared only once.
+    - **Best Case - O(1)
+    - **Worst Case - O(n)** 
+
 ## Binary Search
 - It is an **Interval Search**
 - It is **Decrease & Conquer** because it decreases the search space in each and every iteration.
