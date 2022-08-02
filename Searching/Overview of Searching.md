@@ -10,8 +10,8 @@
 
 - Binary Search
 
-###TIME COMPLEXITY 
-#### Time Complexity is how time grows as input grows
+##TIME COMPLEXITY 
+- **Time Complexity is "how time grows as input grows".**
 
 ## Linear Search
 
