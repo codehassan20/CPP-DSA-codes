@@ -13,13 +13,13 @@
 
 ## Linear Search
 
-- It is a Sequential Search
+- It is a Sequential Search.
 - Number of comparisons does no depends on the size of the array (N).
 - Time complexity - O(n)
     - The time complexity of the linear search is O(n) because each element in an array is compared only once.
     Where n = size of the array.
-    - **Best Case - O(1)**.Only 1 comparison.
-    - **Worst Case - O(n)** 
+    - **Best Case - O(1)**. Element found on **0th index**, only **1 comparison**.
+    - **Worst Case - O(n)**. Element not found, n comparisons. 
 
 ## Binary Search
 - It is an **Interval Search**
