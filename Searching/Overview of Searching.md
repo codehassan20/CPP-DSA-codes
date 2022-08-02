@@ -16,7 +16,8 @@
 - It is a Sequential Search
 - Time complexity - O(n)
     - The time complexity of the linear search is O(n) because each element in an array is compared only once.
-    - **Best Case - O(1)
+    Where n = size of the array.
+    - **Best Case - O(1)**
     - **Worst Case - O(n)** 
 
 ## Binary Search
