@@ -10,12 +10,14 @@
 
 - Binary Search
 
+###TIME COMPLEXITY 
+#### Time Complexity is how time grows as input grows
 
 ## Linear Search
 
 - It is a Sequential Search.
 - Number of comparisons does no depends on the size of the array (N).
-- **Time complexity - O(n) / Linear Time Complexity.***
+- **Time complexity - O(n) / Linear Time Complexity.**
     - The time complexity of the linear search is O(n) because each element in an array is compared only once.
     Where n = size of the array.
     - **Best Case - O(1)**. Element found on **0th index**, only **1 comparison**.
