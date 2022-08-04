@@ -18,7 +18,7 @@
 
 
 
- ## Algorithm
+ ## Bubble Sort Visualizer
 ![Logo](https://1.bp.blogspot.com/-Y5OjJt1kP1w/XrL6BpJ47hI/AAAAAAAABuw/2xuTKm5saeoHlC20on9xSIbDxQINTlMMwCLcBGAsYHQ/s1600/bubble-sort.gif)
 
  ## Optimized Bubble Sort
