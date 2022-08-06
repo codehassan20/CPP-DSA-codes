@@ -78,6 +78,7 @@ void bubbleSort(vector<int> &arr, int n){
                               .
                               .
                               .
+                              .
   At pass n-1 :  Number of comparisons = 1
                        Number of swaps = 1
 
