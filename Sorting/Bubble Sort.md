@@ -66,6 +66,7 @@ void bubbleSort(vector<int> &arr, int n){
     - ___Example :___ you have to sort the array elements in ascending order, but its elements are in descending order. 
 
 ## Why Time Complexity = O(n^2) ?
+In worst case, array is sorted in opposite order(either ascending or descending)
 ```
   At pass 1 :  Number of comparisons = (n-1)
                      Number of swaps = (n-1)
