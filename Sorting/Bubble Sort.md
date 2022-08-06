@@ -89,5 +89,6 @@ Now , calculating total number of comparison required to sort the array
 = n^2              {by ignoring constants and lower order terms}
 ```
 ```
+
 Hence, Time Complexity = O(n^2)
 ```
