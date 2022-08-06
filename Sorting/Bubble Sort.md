@@ -32,29 +32,24 @@
 ## Code 
 
 ```cpp
-void bubbleSort(int arr[], int n)
-{
-   int i, j;
-   bool swapped;
-   for (i = 0; i < n-1; i++)
-   {
-		 swapped = false;
-		 for (j = 0; j < n-i-1; j++)
-		 {
-				if (arr[j] > arr[j+1])
-				{
-				   swap(arr[j], arr[j+1]);
-				   swapped = true;
-				}
-		 }
-  
-		 // IF no two elements were swapped 
-		 // by inner loop, then break
-		 if (swapped == false)
-			break;
-   }
-}
+void bubbleSort(vector<int> &arr, int n){
 
+	int i, j;
+	bool swapped = false;
+	for(i=0; i<n; i++){	//where i is a counter variable
+		for(j = 1; j<n-i; j++){
+			if(arr[j]<arr[j-1]){
+				swap(arr[j],arr[j-1]);
+				swapped = true;
+			}
+		}
+		if(swapped == false){
+			cout << "break" << "\n";
+			break;
+		}
+	}
+	
+}
 ```
 
 
