@@ -22,12 +22,16 @@
 ![Logo](https://1.bp.blogspot.com/-Y5OjJt1kP1w/XrL6BpJ47hI/AAAAAAAABuw/2xuTKm5saeoHlC20on9xSIbDxQINTlMMwCLcBGAsYHQ/s1600/bubble-sort.gif)
 
  ## Optimized Bubble Sort
-
+###### Use of bool variable :
 - In the bubble sort algorithm, comparisons are made even when the array is already sorted. Because of that, the execution time increases.
 
 - To solve it, we can use a __boolean__ variable __bool swapped__. It is set to **true** if swapping requires; otherwise, it is set to **false**.
 
 - It will be helpful, as suppose after an iteration, if there is no swapping required, the value of variable swapped will be false. It means that the elements are already sorted, and no further iterations are required.
+
+###### Use of n-i-1 instead of n in 2nd loop :
+- If we run the internal loop from 0 to n, then for every iteration it will compare the sorted elements also which is not needed.
+- 
 
 ## Code 
 
