@@ -10,7 +10,7 @@
     - __n-'i' th__ part will be __sorted__.(where, n = size of the array)
 
 ### Also known as :
-- __Synching Sort__
+- __Sinking Sort__
 - __Exchange Sort__
 - __Inplace sorting algorithm__ because, its _Space complexity_ is __O(1)__ i.e __constant.__
 - __Stable sorting algorithm__ because, maintains original order for the values which are __equal.__
