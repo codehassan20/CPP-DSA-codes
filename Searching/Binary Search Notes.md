@@ -45,7 +45,8 @@ Therefore,
 - **repeat** until found **else** return **-1**.
 
 ## Pseudocode
-```
+- Using Iteration
+```cpp
   binarySearch(arr, x, low, high)
         repeat till low = high
                mid = high + ((low - high)/2)
@@ -59,6 +60,24 @@ Therefore,
                        high = mid - 1
 ```
 
+- using recursion
+
+```cpp
+binarySearch(arr, x, low, high)
+           if low > high
+               return False 
+   
+           else
+               mid = (low + high) / 2 
+                   if x == arr[mid]
+                   return mid
+       
+               else if x > arr[mid]        // x is on the right side
+                   return binarySearch(arr, x, mid + 1, high)
+               
+               else                        // x is on the right side
+                   return binarySearch(arr, x, low, mid - 1) 
+```
 
 ## Optimized calculation of middle index
 - To avoid s+e exceed the int range use,
