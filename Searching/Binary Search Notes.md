@@ -22,12 +22,12 @@ Length of array = n/2^k
 Also, we know that after k iterations, the length of array becomes 1
 Therefore , 
 ``` 
-Length of array = n/2k = 1
-=> n = 2k
+Length of array = n/2^k = 1
+=> n = 2^k
 ```
 Applying log function on both sides: 
 ```
-=> log2 (n) = log2 (2k)
+=> log2 (n) = log2 (2^k)
 => log2 (n) = k log2 2
 ```
 
