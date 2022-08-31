@@ -1,4 +1,5 @@
-***cpp
+```cpp
+
 class Solution {
 public:
     
@@ -40,7 +41,7 @@ public:
         
     }
 };
-***
+```
 
 Follow up: one-pass algorithm using only constant extra space
 
